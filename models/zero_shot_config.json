@@ -1,0 +1,48 @@
+{
+    "scale": 0.2,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic"
+    ],
+    "prompts": {
+        "paper": [
+            "a photo of paper waste",
+            "a photo of newspapers",
+            "a stack of papers",
+            "a sheet of paper on a table",
+            "recyclable paper materials"
+        ],
+        "plastic": [
+            "a photo of a plastic bottle",
+            "a photo of plastic packaging",
+            "an empty plastic container",
+            "a plastic water bottle",
+            "single-use plastic material"
+        ],
+        "glass": [
+            "a photo of a glass bottle",
+            "a photo of a glass jar",
+            "a transparent glass container",
+            "a broken glass bottle",
+            "recyclable glass material"
+        ],
+        "metal": [
+            "a photo of a metal can",
+            "a photo of aluminium cans",
+            "a photo of metal scrap",
+            "a steel soda can",
+            "a metallic recyclable item"
+        ],
+        "cardboard": [
+            "a photo of a cardboard box",
+            "a corrugated cardboard box",
+            "a cardboard packaging box",
+            "a recycled cardboard box",
+            "cardboard packaging material"
+        ]
+    },
+    "weighted_prompts": true
+}
